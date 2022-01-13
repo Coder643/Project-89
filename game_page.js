@@ -27,7 +27,7 @@ function send() {
 
     question_number = "<h4 id='number_display'>" + number1 + " X "+ number2 +"</h4>";
     input_box = "<br>Answer : <input type='text' id='input_check_box'>";
-    check_button = "<br><br><button class='btn btn-info' onclick='check()'>Check</button>";
+    check_button = "<br><br><button class='btn btn-info' onclick='check())'>Check</button>";
     row =  question_number + input_box + check_button ; 
     document.getElementById("output").innerHTML = row;
 	document.getElementById("number1").value = "";
